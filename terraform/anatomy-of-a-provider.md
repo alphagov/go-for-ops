@@ -52,9 +52,13 @@ This has the single main function resourcePingdomCheck that is used by the provi
 This returns a schema.resource . Resources have 5 properties (CRUD methods, and schema). The schema is defined in-line and the functions are defined later. There is also a helper function that takes ResourceData and creates a check called checkForResource. There is a struct commonCheckParams which is seems to be used to initialise a starting check structure
 
 Create 
+
 Read
+
 Update
+
 Delete
+
 Schema: This defines the types of the variables inside the resource. E.g. sendtoemail is an optional bool that defaults to false.
 
 The CRUD operations are passed some resource data and a meta object (which is just a normal interface{}). This meta object is converted to a pingdom.client. Using a type assertion  https://newfivefour.com/golang-interface-type-assertions-switch.html
@@ -62,6 +66,7 @@ The CRUD operations are passed some resource data and a meta object (which is ju
 From the documentation of https://github.com/hashicorp/terraform/blob/master/helper/schema/provider.go
 
 // Meta returns the metadata associated with this provider that was
+
 // returned by the Configure call. It will be nil until Configure is called. 
 
 So that all makes sense.
