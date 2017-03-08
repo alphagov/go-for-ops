@@ -46,7 +46,7 @@ Schema: This appears to define the types of variables in the Config. E.g. userna
 
 ResourcesMap: This is a map from string to resourceFunction. 
 
-ConfgureFunc: This function is defined in the code. It is passed in some ResourceData this is then partially converted into a map of key to interface. It is then further converted using mapstructure to a config object. Then config.Client() is called to return the api that has been setup.
+ConfgureFunc: This function is defined in the code. It is passed in some ResourceData this is then partially converted into a map of key to interface. It is then further converted using mapstructure to a config object. Then config.Client() is called to return the client that has been setup.
 
 ### /pingdom/provider_test.go
 
