@@ -4,6 +4,12 @@ In order to understand how to make a terraform provider. I'm having a look at a 
 
 https://github.com/russellcardullo/terraform-provider-pingdom
 
+Things I should have read first but did not
+
+https://www.hashicorp.com/blog/writing-custom-terraform-providers/
+http://container-solutions.com/write-terraform-provider-part-1/
+
+
 
 ##File structure
 
