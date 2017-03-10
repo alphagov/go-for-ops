@@ -13,6 +13,6 @@ And everything written by hashicorp (I think) and lots of stuff written by influ
  
 #Books that I have seen recommended (not read them myself)
 
-http://www.gopl.io/
-https://www.manning.com/books/go-in-practice - for learning by doing
+* http://www.gopl.io/
+* https://www.manning.com/books/go-in-practice - for learning by doing
 
